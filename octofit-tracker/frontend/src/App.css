@@ -1,0 +1,116 @@
+/* Add custom styles for the OctoFit app */
+
+/* General App styles */
+.App {
+  text-align: center;
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333; /* Dark text color */
+}
+
+/* Logo styles */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  margin-left: 20px; /* Add margin to justify left */
+  float: left; /* Align logo to the left */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Header styles */
+.App-header {
+  background-color: #4caf50; /* Green background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Link styles */
+.App-link {
+  color: #ff5722; /* Orange links */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+  text-align: left;
+  background-color: #f9f9f9; /* Light gray background */
+  color: #333;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  background-color: #4caf50; /* Green header */
+  color: white;
+}
+
+/* Button styles */
+button {
+  background-color: #4caf50; /* Green buttons */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+  color: #4caf50; /* Green headings */
+}
+
+/* Navigation menu styles */
+nav {
+  background-color: #333; /* Dark background */
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Favicon styles */
+/* Add favicon in the public/manifest.json and link it in index.html */
